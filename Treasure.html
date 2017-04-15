@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Ciekawe San Francisco</title>
+    <link href="style css/back.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="Obrazy/favicon.ico" />
+  <script type="text/javascript">
+<!-- 
+//written by Bogdan Blaszczak "BlaTek"
+//homepage http://blatek.board.pl
+
+function zegarek(offs){
+ offs=offs+lato_offset;
+ var g,m,s,teraz=new Date();
+ with(teraz){
+  setTime(getTime()+(offs*3600000));
+  g=getUTCHours(); m=getUTCMinutes(); s=getUTCSeconds()}
+ 
+ var czas=" "+(g<10?"0":"")+g;
+ czas+=(m<10?":0":":")+m;
+ czas+=(s<10?":0":":")+s;
+ return czas;
+}
+
+function zegarStart(){
+ var lato=new Date(2000,7,1), teraz=new Date();
+ lato_offset=(teraz.getTimezoneOffset()==lato.getTimezoneOffset())?1:0;
+ ustawCzas();
+ setInterval('ustawCzas()',1000);
+}
+
+function ustawCzas(){
+ function Czas(id,offs){
+  document.clock.elements[id].value=zegarek(offs);
+ }
+ Czas("San Francisco", -7);
+ 
+}
+// -->
+</script>
+   
+
+
+</head>
+
+<body class="tlo">
+<div>
+    <header> 
+   		 <center> <img id="naglowek" src="Obrazy/nagl.png" /> </center>
+    
+  </header>
+</div>
+
+<div id="wrapper" >
+
+
+<div>
+	 	
+    <ul id="menu">
+   	  <li class="menu1"> <a  href="index.html"> Strona główna </a> </li>
+            <li class="menu1"> <a href="przydatnelinki.html"> Przydatne linki </a> </li>
+            <li class="menu1"> <a href="kontakt.html"> Kontakt </a> </li>
+            <li class="menu1"> <a href="zrodla.html"> Źródła </a> </li>
+    </ul>
+   </div>  
+<div id="sidebar">
+<div id="zegar">
+<body onload="zegarStart()">
+
+<form name="clock">
+<table border="0" width="500">
+<td> Czas w San Francisco</td>
+ <tr><td><input name="San Francisco" size="15"> </td>
+     </tr>
+</table>
+</form>
+	</div>
+    <br>
+    <br>
+    <br>
+    <br>
+<div id="mapa">    
+<img src="Obrazy/Mapa/tre.png" width="200px"> 
+</div>  
+<a href="#poczatek"> <img src="Obrazy/strzalka.png" style="float:left; position: relative; top:2425px;"> </a>  
+</div>
+
+
+
+<div id="main">
+	<section>
+		<article> <a name="poczatek"> </a>
+				<header>
+				<h2>Treasure Island</h2>
+				</header><br>
+        <div> 
+        <h4> Spis treści </h4>
+        <ol type="1" >
+        <li id="spis"> <a href="#Aracely"> Aracely </a> </li> 
+        <li id="spis"> <a href="#A Tran's bike shop"> A Tran's bike shop </a></li>
+        <li id="spis"> <a href="#Radioaktywne domy"> Radioaktywne domy </a> </li> 
+        <li id="spis"> <a href="#Koktajle w Treasure Island Bar & Grill"> Koktajle w Treasure Island Bar & Grill </a></li>
+        <li id="spis"> <a href="#Treasure Island Museum">Treasure Island Museum </a> </li> 
+        <li id="spis"> <a href="#Fat Grape Winery">Fat Grape Winery </a></li>
+        <li id="spis"> <a href="#Treasure Island Sailing Center"> Treasure Island Sailing Center </a> </li> 
+        <li id="spis"> <a href="#Malownicze wędkowanie"> Malownicze wędkowanie </a></li>
+        <li id="spis"> <a href="#Treasure Island Music Festival"> Treasure Island Music Festival </a> </li> 
+        
+                </div>
+        <br>       <a name="Aracely"> </a>
+                <h3> Aracely </h3> 
+               
+                 <p>Wielu ludzi myśli, że jedyne atrakcje na wyspie to festiwal muzyczny oraz pchli targ. Nie jest to jednak prawdą , bowiem na wyspie możemy znaleźć jeszcze wiele ciekawych miejsc. Na przykład można zjeść  w Aracely’s picturesque garden – restauracji z niesamowitym klimatem, gdzie można odpocząć od zgiełku miasta. Ponadto restauracja propozycje jedzenia też są niczego sobie: croissanty, francuskie tosty, wędzony łosoś z brokułowymi naleśnikami czy cytrynowa tarta.</p>
+                <center> <img src="Obrazy/Treasure Island/Aracely-Cafe-Wedding-San-Francisco-CA-15_main.1430437738.jpg" width="60%" style="float:none; margin:15px"></center>
+<div id="rozdzial"> <hr></div> </a>
+
+                <a name="A Tran's bike shop"> </a>
+                 <h3>A Tran’s bike shop</h3>
+<p>W przeciwieństwie do pozostałej części San Francisco Treasure Island jest dosyć płaska, a to czyni jazdę na rowerze o wiele przyjemniejszą. Można wypożyczyć rower na przykład w A Tran’s bikeshop prowadzonym przez przemiłą Tammy Powers.</p>
+<div id="rozdzial"> <hr></div> 
+
+					 <a name="Radioaktywne domy"> </a>
+                    <h3>Radioaktywne domy</h3>
+<p>Za mostem znajduje się wiele domów – dziwnie jednak opuszczonych. Wszystko przez to, że są skażone radioaktywnie. To miejsce jest jednym z najbardziej dziwnych opuszczonych miejsc w Kalifornii.</p>
+<div id="rozdzial"> <hr></div> 
+
+					
+					 <a name="Koktajle w Treasure Island Bar & Grill"> </a>
+                    <h3>Koktajle w Treasure Island Bar & Grill</h3>
+<p>W  tym miejscu można ochłodzić się po ciężkiej wędrówce – perfekcyjny pisco puch czy ruby basil Collins są na wyciągnięcie ręki.  W barze można również posilić się klasyką z grilla.</p>
+ <hr>
+
+					<a name="Treasure Island Museum"> </a>
+                    <h3>Treasure Island Museum</h3>
+<img src="Obrazy/Treasure Island/treasureisland07_admin1.jpg" width="30%" style="float:right; margin: 0 15px">
+<p>Jeżeli jeszcze nie wiesz skąd swoją nazwę wzięła Trasure Island, to koniecznie odwiedź Treasure Island Museum, które znajduje się w ogromnym budynku w stylu art deco. Kilka faktów: wyspa ma mniej nic 100 lat, została zbudowana z „błota” z zatoki, a nazwana jest po skarbie, które może zawierać jej gleba.  Ponadto mocne trzęsienie ziemi może całkowicie zniszczyć wyspę. W muzeum, oprócz poznania historii wyspy i wiele innych ciekawych faktów, można obejrzeć wiele starych zdjęć przedstawiających jej historię.</p><br><br><br><br><br>
+<hr> 
+
+						<a name="Fat Grape Winery"> </a>
+                        <h3>Fat Grape Winery</h3>
+<p>Wino zawiera siarczany, dlatego ludzie, którzy są na nie uczuleni nie mogą cieszyć się jego smakiem. W Fat Grape Winiery można zakupić wino bez siarczanów! Ponadto sklep mieści się w byłym więzieniu marynarki wojennej, więc można przy okazji zwiedzić cele. </p>
+<hr> 
+
+						<a name="Treasure Island Sailing Center"> </a>
+                        <h3>Treasure Island Sailing Center</h3>
+                        <img src="Obrazy/Treasure Island/292277_10150784878031986_352583824_n.jpg"width="30%" style="float:left; margin: 0 15px">
+<p>W Treasure Island Sailing Center można wypożyczyć paddle board. Cena ($25 za godzinę w weekendy), względnie słabe wiatry sprzyjają w odkrywaniu wyspy z wodnego punktu widzenia.</p><br><br><br><br><br><br><br><br><br><br>
+<hr>
+
+							<a name="Malownicze wędkowanie"> </a>
+                            <h3>Malownicze wędkowanie</h3>
+<p>Wędkowanie samo w sobie jest przyjemne, ale może być jeszcze lepsze. Widoki na północnym wybrzeżu wyspy są niesamowite, dodatkowo w piękny dzień jest tam bardzo duża widoczność. Pod względem ryb też nie ma co narzekać. Należy jednak pamiętać o swoim sprzęcie wędkarskim, bo na wyspie nie znajdziemy żadnego sklepu z tego typu zaopatrzeniem.</p>
+<hr> 
+
+							<a name="Treasure Island Music Festival"> </a>
+                            <h3>Treasure Island Music Festival</h3>
+<p>Wspomniany już wcześniej, Treasure Island Music Festival, jest jedną z głównych atrakcji, które przyciągają ludzi na wyspę.  Festiwal odbywa się w październikowy weekend i goszczą na nim muzycy z całego świata, w tym także z Polski.</p>
+<center><img src="Obrazy/Treasure Island/131019_timf_majorlazer-brookeduthiephoto-0176-1.jpg" width="60%" style="float:none; margin: 0 15px"></center>
+
+
+
+
+
+				
+
+		</article>
+	</section>
+
+
+
+
+</div>
+<div>
+    <footer>
+	<div> <center> <hr />
+    &#169 A.G. M.G. 2017
+    <hr />
+    </center>
+    </div>
+	</footer>
+</div>
+
+
+</div>
+  
+  	
+
+</body>
+</html>
+

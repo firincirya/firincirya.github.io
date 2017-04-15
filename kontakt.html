@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ciekawe San Francisco</title>
+	<link href="style css/back.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="Obrazy/favicon.ico" />
+  
+</head>
+<body class="tlo" >
+<div>
+    <header> 
+   		 <center> <img id="naglowek" src="Obrazy/nagl.png" /> </center>
+    
+  </header>
+</div>
+<div id="wrapper" >
+
+
+<nav>
+	 	
+    <ul id="menu">
+   	  <li class="menu1"> <a  href="index.html"> Strona główna </a> </li>
+            <li class="menu1"> <a href="przydatnelinki.html"> Przydatne linki </a> </li>
+            <li class="menu1"> <a class="active" href="kontakt.html"> Kontakt </a> </li>
+            <li class="menu1"> <a href="zrodla.html"> Źródła </a> </li>
+    </ul>
+   </nav>  
+<br>
+ <center>
+ <div id="main">
+	<section>
+		<article>
+			 <h1> Skontaktuj się z nami! </h1> 
+            
+
+<a target="_blank" href="mailto:fruciek632@gmail.com"> <img id="gmail" src="Obrazy/gmail.png" > </a>
+
+<a target="_blank" href="https://plus.google.com/"> <img id="gmail" src="Obrazy/g+.png" > </a>
+
+
+<a target="_blank" href="https://twitter.com/danionmercury"> <img id="gmail" src="Obrazy/twitter.png" > </a>
+
+<a target="_blank" href="https://www.facebook.com/"> <img id="gmail" src="Obrazy/fb.png" > </a>
+
+<br> <br>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="Obrazy/pokaz/1.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="Obrazy/pokaz/2.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="Obrazy/pokaz/3.png" style="width:100%">
+
+</div>
+<div class="mySlides fade">
+  
+  <img src="Obrazy/pokaz/4.png" style="width:100%">
+
+</div>
+<div class="mySlides fade">
+  
+  <img src="Obrazy/pokaz/5.png" style="width:100%">
+
+</div>
+<div class="mySlides fade">
+  
+  <img src="Obrazy/pokaz/6.png" style="width:100%">
+
+</div>
+<div class="mySlides fade">
+  
+  <img src="Obrazy/pokaz/7.png" style="width:100%">
+
+</div>
+<div class="mySlides fade">
+  
+  <img src="Obrazy/pokaz/8.png" style="width:100%">
+
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+   <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+   <span class="dot"></span> 
+  <span class="dot"></span> 
+  
+</div>
+				
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+		</article>
+	</section>
+
+
+   
+</div>
+
+
+
+    <footer>
+	<div> <center> <hr />
+    &#169 A.G. M.G. 2017
+    <hr />
+    </center>
+    </div>
+	</footer>
+	</center>
+
+</div>
+  
+  	
+
+
+
+
+</body>
+</html>

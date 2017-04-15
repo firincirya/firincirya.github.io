@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Ciekawe San Francisco</title>
+    <link href="style css/back.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="Obrazy/favicon.ico" />
+  <script type="text/javascript">
+<!-- 
+//written by Bogdan Blaszczak "BlaTek"
+//homepage http://blatek.board.pl
+
+function zegarek(offs){
+ offs=offs+lato_offset;
+ var g,m,s,teraz=new Date();
+ with(teraz){
+  setTime(getTime()+(offs*3600000));
+  g=getUTCHours(); m=getUTCMinutes(); s=getUTCSeconds()}
+ 
+ var czas=" "+(g<10?"0":"")+g;
+ czas+=(m<10?":0":":")+m;
+ czas+=(s<10?":0":":")+s;
+ return czas;
+}
+
+function zegarStart(){
+ var lato=new Date(2000,7,1), teraz=new Date();
+ lato_offset=(teraz.getTimezoneOffset()==lato.getTimezoneOffset())?1:0;
+ ustawCzas();
+ setInterval('ustawCzas()',1000);
+}
+
+function ustawCzas(){
+ function Czas(id,offs){
+  document.clock.elements[id].value=zegarek(offs);
+ }
+ Czas("San Francisco", -7);
+ 
+}
+// -->
+</script>
+   
+
+
+</head>
+
+<body class="tlo">
+<div>
+    <header> 
+   		 <center> <img id="naglowek" src="Obrazy/nagl.png" /> </center>
+    
+  </header>
+</div>
+
+<div id="wrapper" >
+
+
+<div>
+	 	
+    <ul id="menu">
+   	  <li class="menu1"> <a  href="index.html"> Strona główna </a> </li>
+            <li class="menu1"> <a href="przydatnelinki.html"> Przydatne linki </a> </li>
+            <li class="menu1"> <a href="kontakt.html"> Kontakt </a> </li>
+            <li class="menu1"> <a href="zrodla.html"> Źródła </a> </li>
+    </ul>
+   </div>  
+<div id="sidebar">
+<div id="zegar">
+<body onload="zegarStart()">
+
+<form name="clock">
+<table border="0" width="500">
+<td> Czas w San Francisco</td>
+ <tr><td><input name="San Francisco" size="15"> </td>
+     </tr>
+</table>
+</form>
+	</div>
+    <br>
+    <br>
+    <br>
+    <br>
+<div id="mapa">    
+<img src="Obrazy/Mapa/marina.png" width="200px"> 
+</div>  
+<a href="#poczatek"> <img src="Obrazy/strzalka.png" style="float:left; position: relative; top:1125px;"> </a>  
+</div>
+
+
+
+<div id="main">
+	<section>
+		<article> <a name="poczatek"> </a>
+				<header>
+				<h2> Marina / Pacific Heights</h2>
+				</header>
+                 <div>
+                <h4> Spis treści </h4>
+        <ol type="1" >
+        <li id="spis"> <a href="#Palace of Fine Arts"> Palace of Fine Arts</a> </li> 
+        <li id="spis"> <a href="#Crissy Field">Crissy Field</a></li>
+        <li id="spis"> <a href="#Fort Point"> Fort Point</a> </li> 
+        
+     </div>
+                
+<a name="Palace of Fine Arts"> </a>
+<h3>Palace of Fine Arts </h3>
+<p>Jest to jedyny budynek, który nie został zniszczony na rzecz współczesnego budownictwa, wybudowany w 1915 roku. Przeznaczony jest do wystawiana sztuk oraz ekspozycji dzieł artystycznych, ale stał się również popularnym miejscem dla turystów; z pewnością przyciąga ich jego monumentalność i malownicze położenie.</p>
+<center><img src="Obrazy/Marina  Pacific Heights/1.jpg" width="90%" style="float:none; margin: 0 15px"></center>
+<hr>
+<a name="Crissy Field"> </a>
+<h3>Crissy Field</h3>
+<img src="Obrazy/Marina  Pacific Heights/Crissy-Field-West-Bluffs-Picnic-Area-Courtesy-of-The-Presidio.jpg" width="30%" style="float:left; margin: 0 15px">
+<p>Niegdyś było tu lotnisko wojskowe, dziś jest to popularny teren rekreacyjny. Znaleźć tu można również budownictwo z lat 20. XX wieku; w większości jednak zostało ono zamienione na biurowce, miejsca handlu bądź prywatne rezydencje. Miejsce to spodoba się również miłośnikom przyrody, gdyż jest idealne do prowadzenia obserwacji ptaków. Warto zostać do zachodu słońca i podziwiać jak ognista kula znika za widnokręgiem z towarzyszącym jej Golden Gate Bridge.</p><br><br><br><br><br><br>
+<hr>
+<a name="Fort Point"> </a>
+<h3>Fort Point</h3>
+<img src="Obrazy/Marina  Pacific Heights/smith-bunting-5.jpg" width="30%" style="float:right; margin: 0 15px">
+<p>Fort Point to system obronny, który wybudowany został podczas Gorączki Złota. Nigdy nie doszło do działań zbrojnych, jednak do dziś jest on chętnie odwiedzany przez turystów, jako że z miejsca, gdzie stoi budynek można obserwować konstrukcję budowy Golden Gate Bridge.</p><br><br><br><br><br><br><br><br><br>
+
+				
+
+		</article>
+	</section>
+
+
+
+
+</div>
+<div>
+    <footer>
+	<div> <center> <hr />
+    &#169 A.G. M.G. 2017
+    <hr />
+    </center>
+    </div>
+	</footer>
+</div>
+
+
+</div>
+  
+  	
+
+</body>
+</html>
